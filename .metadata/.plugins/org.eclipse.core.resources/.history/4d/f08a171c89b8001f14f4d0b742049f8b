@@ -1,0 +1,38 @@
+package com.ait.entity;
+
+import java.time.LocalDateTime;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+
+
+@Entity
+@Table(name = "TBL_Product")
+public class ProductEntity 
+{
+	@Id
+	@Column( name = "product_id" )
+	private Integer productId;
+	
+	@Column( name = "product_name" )
+	private String productName;
+	
+	private Integer quantity;
+	
+	@Column( name = "unit_price")
+	private Double unitPrice;
+	
+	@Column(name = "CREATED_ON")
+	@CreationTimestamp
+	private LocalDateTime createdOn;
+	
+	@Column( name = "LASTUPDATED_ON")
+	@UpdateTimestamp
+	private LocalDateTime updatedOn;
+
+}

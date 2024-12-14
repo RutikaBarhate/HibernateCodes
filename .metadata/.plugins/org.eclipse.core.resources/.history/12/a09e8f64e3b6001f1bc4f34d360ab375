@@ -1,0 +1,7 @@
+package com.ait.dao.impl;
+
+import com.ait.dao.StudentDAO;
+
+public class StudentDAOIMPL implements StudentDAO {
+
+}

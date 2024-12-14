@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<hibernate-mapping xmlns="http://hibernate.sourceforge.net/hibernate-mapping">>
+  <class  name="com.ait.entity.Student"  table="TBL_STUDENT">
+     <id  name="sid"  column="SID"/>
+     <property name="sname"  column="SNAME"/>
+     <property name="gender" column="GENDER"/>
+     <property name="marks"  column="MARKS"/>
+  </class>
+</hibernate-mapping>

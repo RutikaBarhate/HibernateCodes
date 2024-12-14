@@ -1,0 +1,21 @@
+package com.ait.dao.impl;
+
+import com.ait.dao.StudentDAO;
+import com.ait.entity.StudentCompositeKey;
+import com.ait.entity.StudentEntity;
+
+public class StudentDAOIMPL implements StudentDAO {
+
+	@Override
+	public void saveStudent(StudentEntity entity) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public StudentEntity fetchStudent(StudentCompositeKey compositekey) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

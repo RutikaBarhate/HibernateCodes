@@ -1,0 +1,5 @@
+package com.ait.dao.impl;
+
+public class ProductDAOIMPL {
+
+}

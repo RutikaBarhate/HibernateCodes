@@ -1,0 +1,10 @@
+package com.ait.entity;
+import java.io.Serializable;
+
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class StudentCompositeKey implements Serializable
+{
+	
+}
