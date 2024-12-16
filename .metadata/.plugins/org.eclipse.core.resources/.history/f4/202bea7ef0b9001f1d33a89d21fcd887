@@ -15,7 +15,7 @@ public class Taster {
 		/*
 		 * save a student entity
 		 */
-		/*StudentCompositeKey compositekey = new StudentCompositeKey();
+		StudentCompositeKey compositekey = new StudentCompositeKey();
 		compositekey.setRollnum(100);
 		compositekey.setSection("B");
 
@@ -25,20 +25,6 @@ public class Taster {
 		entity.setMarks(900);
 		
 		dao.saveStudent(entity);
-		*/
-		
-		/*
-		 * 
-		 * fetch a student entity
-		 */
-		StudentCompositeKey compositekey = new StudentCompositeKey();
-		compositekey.setRollnum(100);
-		compositekey.setSection("A");
-		
-		StudentEntity entity = dao.fetchStudent(compositekey);
-		System.out.println("name "+ entity.getStudentName());
-		System.out.println("marks "+ entity.getMarks());
-		
 	}
 
 }
